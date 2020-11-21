@@ -1,0 +1,16 @@
+{
+    "name": "ejercicio1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "/src/functionReverse.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "doc1": "./node_modules/.bin/jsdoc src/functionReverse.js",
+        "doc": "./node_modules/.bin/jsdoc -c jsdoc.json"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jsdoc": "^3.6.6"
+    }
+}
